@@ -1,0 +1,17 @@
+{
+  "title": "Space Bucks",
+  "repo": "sp00nznet/spacebucks-recomp",
+  "accent": "#c9a227",
+  "note": {
+    "windows": "Early build: it reaches the main play screen after New Game; play itself is not checked yet. The build takes about 10 minutes and 700 MB. Python, capstone, CMake, Ninja and MSYS2's gcc (about 1 GB) are installed if missing."
+  },
+  "game": {
+    "name": "Space Bucks",
+    "files": ["HD/SPACEBUC.EXE|hd/spacebuc.exe|spacebuc*.iso"]
+  },
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-ne-spacebucks", "dir": "pcrecomp" }],
+  "setup": {
+    "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
+  },
+  "play": "Space Bucks.cmd"
+}

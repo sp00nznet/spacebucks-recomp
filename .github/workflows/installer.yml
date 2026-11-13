@@ -1,0 +1,17 @@
+# The installer for this commit (recomp-launcher with launcher/launcher.json).
+# Manual only while the repo is private (REPO_RULES); on push and v* tags
+# once it is public, like the other recomps.
+name: installer
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  installer:
+    uses: sp00nznet/recomp-launcher/.github/workflows/installer.yml@main
+    with:
+      name: SpaceBucks-Recomp-Installer
+      platforms: windows

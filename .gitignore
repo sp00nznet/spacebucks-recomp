@@ -1,0 +1,31 @@
+# Your copy of the game (Space Bucks (c) 1996 Sierra On-Line). Never committed.
+game/
+*.EXE
+*.exe
+*.DLL
+*.dll
+*.iso
+*.LBM
+*.SMK
+
+# Generated from the game: the lifted C, the memory image,
+# the import maps (work/win16_imports.json is Wine-derived, LGPL: never
+# committed). Regenerate with tools/relift.py.
+analysis/win16_imports.json
+work/
+src/
+
+# Build output
+build/
+build_*/
+build-*/
+*.bmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Made by Setup.cmd, and by netlab
+setup.log
+Space Bucks.cmd
+build-farm*/
