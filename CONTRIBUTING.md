@@ -22,8 +22,7 @@ Screenshots of the game running are fine.
 ## Where a fix belongs
 
 - A bug in the NE lifter, the code map or the Win16 host belongs in
-  [pcrecomp](https://github.com/sp00nznet/pcrecomp) (branch
-  `pcrecomp-ne-spacebucks`), not here.
+  [pcrecomp](https://github.com/sp00nznet/pcrecomp), not here.
 - A shim for a DLL the game ships (Miles, BWCC, Smacker) belongs here, in
   `runtime/`.
 - A wall you got past goes in `docs/bringup.md`: what it looked like, what it

@@ -9,7 +9,7 @@
     "name": "Space Bucks",
     "files": ["HD/SPACEBUC.EXE|hd/spacebuc.exe|spacebuc*.iso"]
   },
-  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-ne-spacebucks", "dir": "pcrecomp" }],
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "main", "dir": "pcrecomp" }],
   "setup": {
     "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
   },

@@ -3,7 +3,7 @@
 The layout is Catz's: pcrecomp's `ne_link` lifts the NE module into one tree,
 and pcrecomp's Win16 host (`runtime/win16/host`) answers the Windows 3.1 API
 with Win32. What follows is what this game needed on top, in the order it
-turned up. The toolkit half is pcrecomp#167 (branch `pcrecomp-ne-spacebucks`).
+turned up. The toolkit half is pcrecomp#167, now in its `main`.
 
 ## 1. Imports by name
 

@@ -8,12 +8,12 @@ thing, command for command.
 Windows 10/11, **Python 3.10+** (`py -3 --version`) with `capstone`,
 **CMake** 3.16+, **Ninja**, **MSYS2** with `mingw-w64-x86_64-gcc`
 (`C:\msys64\mingw64\bin\gcc.exe`), **git**, and pcrecomp cloned **beside**
-this repository as `pcrecomp`, on branch **`pcrecomp-ne-spacebucks`** (or
-point `PCRECOMP_DIR` at it). `main` lacks this game's host fixes.
+this repository as `pcrecomp`, on `main` (or
+point `PCRECOMP_DIR` at it).
 
 ```
 some-folder\
-  pcrecomp\            <- git clone -b pcrecomp-ne-spacebucks https://github.com/sp00nznet/pcrecomp
+  pcrecomp\            <- git clone https://github.com/sp00nznet/pcrecomp
   spacebucks-recomp\   <- this repository
 ```
 
@@ -55,7 +55,7 @@ come from the same tree.
   use `py -3`.
 - A freshly installed tool is not on `PATH` until you open a new window.
 - gcc failing to find `cc1`: `C:\msys64\mingw64\bin` is not on `PATH`.
-- A pcrecomp on `main` or `pcrecomp-ne-nativemap`: it lacks the dialog-by-name
+- An older pcrecomp (before `pcrecomp-ne-spacebucks` was merged into `main`) lacks the dialog-by-name
   fixes, and the opening menu draws only its background.
 
 ## Scripted input

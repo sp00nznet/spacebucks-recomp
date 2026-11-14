@@ -12,6 +12,7 @@ All notable changes to this project are documented here. The format follows
   `work/win16_imports.json` on the first lift.
 
 ### Changed
+- Builds against pcrecomp main; the `pcrecomp-ne-spacebucks` branch is merged.
 - Repository conformance: README in the house order, `NOTICE.md` (replacing
   `NOTICE`), `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `docs/building.md`, a
   `setup.sh` that says Linux and macOS are not supported yet;

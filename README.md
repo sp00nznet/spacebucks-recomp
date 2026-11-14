@@ -9,8 +9,8 @@ Win16 host, which answers KERNEL, USER, GDI, WinG and MMSYSTEM with Win32. The
 third-party DLLs the game ships are answered here: Miles (`WAIL16`, silent for
 now) and Borland's BWCC dialogs.
 
-Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain,
-branch **`pcrecomp-ne-spacebucks`** (not yet merged into `main`), in its shared
+Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain
+(`main`), in its shared
 house style, with the layout of the [Catz](https://github.com/sp00nznet/catz-recomp) recomp.
 
 ![In game: the galaxy, Galactic Express with 491,794 credit](docs/screenshots/play-screen.png)
@@ -32,7 +32,7 @@ release yet.
 
 The script checks for Python 3.10+ with `capstone`, CMake, Ninja, MSYS2's
 MinGW-w64 gcc and git, and **asks** before installing any of them. It fetches
-pcrecomp beside this folder on branch `pcrecomp-ne-spacebucks` (an existing
+pcrecomp beside this folder on `main` (an existing
 checkout on another branch is left alone, and it tells you what to run). It
 finds the CD in your drives or asks for it (`-GameDir E:\` or
 `-GameDir spacebucks.iso` skips the question, `-Yes` answers yes to every
@@ -76,7 +76,7 @@ Real output of `build\spacebucks.exe`, recompiled code throughout:
 
 ## Documentation
 
-- [docs/building.md](docs/building.md): building by hand, the toolkit branch, netlab
+- [docs/building.md](docs/building.md): building by hand, netlab
 - [docs/bringup.md](docs/bringup.md): every wall so far and its fix, and the debugging aids
 - [ROADMAP.md](ROADMAP.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md)
 

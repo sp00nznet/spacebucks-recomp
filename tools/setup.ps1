@@ -12,7 +12,7 @@ param([switch]$Force, [switch]$Yes, [string]$GameDir = "")
 # ---------------------------------------------------------------- this game
 $Title     = 'Space Bucks'
 $Exe       = 'spacebucks.exe'
-$Branch    = 'pcrecomp-ne-spacebucks'   # the pcrecomp branch with this game's host fixes and the native NE code map
+$Branch    = 'main'
 $Shortcut  = 'Space Bucks.cmd'
 $NeedMB    = 700
 # A folder holds the game when it is the CD: HD\SPACEBUC.EXE beside DATA, VIDEO and WAV.
