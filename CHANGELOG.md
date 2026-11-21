@@ -6,6 +6,8 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-20
+
 ### Removed
 - `analysis/win16_imports.json` is no longer in the repository: it is derived
   from Wine's LGPL `.spec` files. `tools/relift.py` builds it into
